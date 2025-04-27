@@ -1,0 +1,31 @@
+# Python 环境
+__pycache__/
+*.py[cod]
+.env
+venv/
+env/
+condaenv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 日志文件
+*.log
+*.log.*
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+*.DS_Store
+
+# CSV 文件（若包含敏感数据或本地配置，可取消注释）
+# course-info.csv
+
+# IDE 配置
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
