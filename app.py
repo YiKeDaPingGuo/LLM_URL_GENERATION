@@ -8,13 +8,13 @@ app = Flask(__name__)
 
 # MinIO 配置（请根据实际环境修改）
 minio_client = Minio(
-    "10.134.229.240:9000",  # MinIO 服务地址
+    "10.136.196.237:9000",  # MinIO 服务地址
     access_key="minioadmin",  # 访问密钥
     secret_key="minioadmin",  # 私有密钥
     secure=False  # HTTP 访问，HTTPS 设为 True
 )
 bucket_name = "course-materials"  # MinIO 存储桶名称
-csv_path = "course-info.csv"  # CSV 文件路径（请修改为实际路径）
+csv_path = "course_info.csv"  # CSV 文件路径（请修改为实际路径）
 
 
 def process_course_name(course_name):
